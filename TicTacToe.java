@@ -88,6 +88,7 @@ public class TicTacToe {
                     return count;
                 }
             }
+            count=0;
         }
         
         for(int i=0;i<board.length;i++){
@@ -105,6 +106,7 @@ public class TicTacToe {
                     return count3;
                 }
             }
+            count3=0;
         }
         if(Math.abs(count3)==3){
             return count3;
